@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="icon" href="https://img.icons8.com/3d-fluency/94/globe-africa.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="https://img.icons8.com/3d-fluency/94/globe-africa.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <h2>Welcome to Bubble Game</h2>
+                    <p>Click on bubbles with the correct number to score points.</p>
+                    <button id="startBtn">Start Game</button>
+                    <!-- <button id="howToPlayBtn">How to Play</button> -->
+                </div>
+            </div>
+            <div id="ptop">
+                <div class="element">
+                    <h2>Hit</h2>
+                    <div id="hitval" class="box">0</div>
+                </div>
+                <div class="element">
+                    <h2>Timer</h2>
+                    <div id="timerval" class="box">60</div>
+                </div>
+                <div class="element">
+                    <h2>Score</h2>
+                    <div id="scoreid" class="box">0</div>
+                </div>
+            </div>
+            <div id="pbtm">
+             
+            </div>
+        </div>
+    </div>
+    <div id="endPopup" class="popup">
+        <div class="popup-content">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="finalScore">0</span></p>
+            <button id="resetBtn">Restart Game</button>
+            <p>Created By Chanchal Sen</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
